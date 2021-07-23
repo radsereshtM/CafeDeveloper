@@ -23,8 +23,8 @@ public class ShutdownDemo {
         Runtime runtime = Runtime.getRuntime();
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		
-        System.out.print("Enter No. of Seconds after which You want your Computer to Shutdown :");
-        long a=Long.parseLong(br.readLine());
+        //System.out.print("Enter No. of Seconds after which You want your Computer to Shutdown :");
+        long a=2;
 		
         Process proc = runtime.exec("shutdown -s -t " +a);
 		
