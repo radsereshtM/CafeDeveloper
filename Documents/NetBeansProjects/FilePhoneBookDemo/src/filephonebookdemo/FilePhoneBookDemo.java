@@ -28,6 +28,7 @@ public class FilePhoneBookDemo {
             System.out.println("2-Print:");
             System.out.println("3-Search:");
             System.out.println("4-Exit:");
+            System.out.println("-------");
 
             int selectMode = sc.nextInt();
             switch (selectMode) {
